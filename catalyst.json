@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "targets": [
+      "Alien",
+      "Basic",
+      "Eventt"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  }
+}

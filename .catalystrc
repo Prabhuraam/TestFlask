@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "6691000000009014",
+      "name": "eventCheck",
+      "domain": {
+        "id": "1010619246",
+        "name": "eventcheck-74541233.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "74541233",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
