@@ -3,7 +3,7 @@ def handler(event, context):
     logger = logging.getLogger()
     logger.info('Hello from main.py')
     data = event.get_data()  # event data
-    time = event.get_time()  # event occurred time
+    time = event.get_time()   # event occurred   time
     action = event.get_action()
     source_details = event.get_source()
     source_entity_id = event.get_source_entity_id()
