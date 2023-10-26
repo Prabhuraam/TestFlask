@@ -4,6 +4,8 @@ import logging
 def handler(event, context):
     logger = logging.getLogger()
     logger.info('Hello from main.py')
+
+    '''Event Functionalities'''
     data = event.get_data()  # event data
     time = event.get_time()  # event occurred time
     action = event.get_action()
