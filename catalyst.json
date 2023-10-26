@@ -3,7 +3,10 @@
     "targets": [
       "Alien",
       "Basic",
-      "Eventt"
+      "Eventt",
+      "Cronn",
+      "Integration",
+      "int1"
     ],
     "ignore": [],
     "source": "functions"

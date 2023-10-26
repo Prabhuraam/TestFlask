@@ -1,0 +1,11 @@
+{
+	"deployment": {
+		"name": "int1",
+		"stack": "python_3_9",
+		"type": "integration",
+		"env_variables": {}
+	},
+	"execution": {
+		"main": "main.py"
+	}
+}
