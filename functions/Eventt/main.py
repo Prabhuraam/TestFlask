@@ -2,7 +2,7 @@ import logging
 def handler(event, context):
     logger = logging.getLogger()
     logger.info('Hello from main.py')
-    data = event.get_data()  # event data
+    data = event.get_data()  
     time = event.get_time()  
     action = event.get_action()
     source_details = event.get_source()
