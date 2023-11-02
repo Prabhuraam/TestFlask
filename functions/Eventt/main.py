@@ -17,7 +17,6 @@ def handler(event, context):
     logging.info(f"This is the event_bus_details:{event_bus_details}")
     logging.info(f"This is the project_details:{project_details}")
 
-    '''Context Functionalities'''
     remaining_execution_time_ms = context.get_remaining_execution_time_ms()
     max_execution_time_ms = context.get_max_execution_time_ms()
     logging.info(f"This is the remaining_execution_time_ms:{remaining_execution_time_ms}")
