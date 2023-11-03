@@ -15,6 +15,7 @@ def handler(cron_details, context):
     logging.info(f"cron_details:{cron_details1}")
     logging.info(f"project_details:{project_details}")
 
+    '''Context Functionalities'''
     remaining_execution_time_ms = context.get_remaining_execution_time_ms()
     max_execution_time_ms = context.get_max_execution_time_ms()
     logging.info(f"remaining_execution_time_ms:{remaining_execution_time_ms}")
