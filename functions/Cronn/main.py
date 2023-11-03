@@ -4,8 +4,6 @@ import logging
 def handler(cron_details, context):
     logger = logging.getLogger()
     logger.info('Hello from main.py')
-
-    '''CronDetails Functionalities'''
     cron_param = cron_details.get_cron_param('')
     remaining_execution_count = cron_details.get_remaining_execution_count()
     cron_details1 = cron_details.get_cron_details()
